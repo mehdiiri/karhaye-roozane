@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="rtl">
+  <ImageView android:id="@+id/widget_background"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:scaleType="fitXY" android:contentDescription="@null" />
+  <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="12dp" android:layoutDirection="rtl">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:orientation="horizontal" android:gravity="center_vertical" android:paddingBottom="6dp">
+      <TextView android:id="@+id/widget_title" android:layout_width="0dp" android:layout_weight="1"
+        android:layout_height="wrap_content" android:text="کارهای روزانه" android:textSize="14sp"
+        android:textColor="#FFFFFF" android:textStyle="bold" android:singleLine="true" />
+      <TextView android:id="@+id/widget_prev" android:layout_width="28dp" android:layout_height="30dp"
+        android:gravity="center" android:text="❯" android:textSize="16sp" android:textColor="#FFFFFF" />
+      <TextView android:id="@+id/widget_next" android:layout_width="28dp" android:layout_height="30dp"
+        android:gravity="center" android:text="❮" android:textSize="16sp" android:textColor="#FFFFFF" />
+      <TextView android:id="@+id/widget_add" android:layout_width="32dp" android:layout_height="30dp"
+        android:gravity="center" android:text="+" android:textSize="22sp" android:textColor="#FFFFFF" />
+    </LinearLayout>
+    <TextView android:id="@+id/widget_date" android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:textSize="11sp" android:textColor="#CBD5E1" android:paddingBottom="7dp" />
+    <TextView android:id="@+id/task1" style="@style/DailyTaskRow" />
+    <TextView android:id="@+id/task2" style="@style/DailyTaskRow" />
+    <TextView android:id="@+id/task3" style="@style/DailyTaskRow" />
+    <TextView android:id="@+id/task4" style="@style/DailyTaskRow" />
+    <TextView android:id="@+id/task5" style="@style/DailyTaskRow" />
+  </LinearLayout>
+</FrameLayout>

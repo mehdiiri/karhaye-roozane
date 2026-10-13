@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@font-face { font-family: "OfflinePersian"; src: url("./assets/fonts/NotoSansArabic-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "OfflinePersian"; src: url("./assets/fonts/NotoSansArabic-Medium.ttf") format("truetype"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "OfflinePersian"; src: url("./assets/fonts/NotoSansArabic-Bold.ttf") format("truetype"); font-weight: 700; font-style: normal; font-display: swap; }
+
+
+@layer base {
+  body {
+    font-family: 'OfflinePersian', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+}
+
+/* Custom scrollbars for clean widget look */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(156, 163, 175, 0.7);
+}
+

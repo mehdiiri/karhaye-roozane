@@ -1,0 +1,6 @@
+{
+  "name": "کارهای روزانه",
+  "description": "مدیریت کارهای روزانه با تقویم شمسی، ویجت اندروید قابل تغییر سایز، سازگاری با باد صبا، سه رنگ اولویت و تم تیره و روشن",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

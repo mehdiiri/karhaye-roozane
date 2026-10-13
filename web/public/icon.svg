@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="50%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Background squircle -->
+  <rect x="32" y="32" width="448" height="448" rx="112" fill="url(#grad)" filter="url(#shadow)" />
+  
+  <!-- Calendar / Widget Card -->
+  <rect x="96" y="112" width="320" height="288" rx="36" fill="#ffffff" />
+  
+  <!-- Calendar Header Red Bar -->
+  <path d="M96 148 C96 128 112 112 132 112 L380 112 C400 112 416 128 416 148 L416 180 L96 180 Z" fill="#ef4444" />
+  
+  <!-- Calendar binder rings -->
+  <rect x="160" y="92" width="24" height="40" rx="12" fill="#334155" />
+  <rect x="328" y="92" width="24" height="40" rx="12" fill="#334155" />
+
+  <!-- 3 Priority Task Lines (Red, Green, Blue) -->
+  <!-- Priority 1: Red -->
+  <circle cx="144" cy="228" r="14" fill="#ef4444" />
+  <rect x="176" y="220" width="180" height="16" rx="8" fill="#334155" />
+  
+  <!-- Priority 2: Green with Checkmark -->
+  <circle cx="144" cy="280" r="14" fill="#22c55e" />
+  <path d="M138 280 L143 285 L151 275" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="176" y="272" width="140" height="16" rx="8" fill="#64748b" />
+  
+  <!-- Priority 3: Blue -->
+  <circle cx="144" cy="332" r="14" fill="#3b82f6" />
+  <rect x="176" y="324" width="200" height="16" rx="8" fill="#94a3b8" />
+  
+  <!-- Sparkle badge / Widget indicator -->
+  <circle cx="390" cy="390" r="44" fill="#10b981" filter="url(#shadow)"/>
+  <path d="M376 390 L386 400 L406 380" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
